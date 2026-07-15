@@ -1,0 +1,33 @@
+# =========================
+# FRONTEND (React / Node)
+# =========================
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# BACKEND (Python / FastAPI)
+# =========================
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# SECRETS & DATABASES
+# =========================
+.env
+.env.local
+*.sqlite3
+*.db
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
